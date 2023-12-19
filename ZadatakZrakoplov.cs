@@ -47,16 +47,13 @@ namespace Zrakoplov
     {
         static void Main(string[] args)
         {
-            // instanciranje novog objekta
             Zrakoplov zrakoplov = new Zrakoplov();
 
-            //korisnički unos
             Console.WriteLine("Unesi naziv, snagu motora i doseg leta");
             string naziv = Console.ReadLine();
             string snagaMotora = Console.ReadLine();
             string dosegLeta = Console.ReadLine();
 
-            // definiranje podataka za objekt 'ucenik'
             zrakoplov.setnaziv(naziv);
             zrakoplov.setSnagaMotora(snagaMotora);
             zrakoplov.setDosegLeta(dosegLeta);
