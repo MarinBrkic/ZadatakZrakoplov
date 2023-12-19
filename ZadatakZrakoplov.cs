@@ -57,8 +57,7 @@ namespace Zrakoplov
             zrakoplov.setnaziv(naziv);
             zrakoplov.setSnagaMotora(snagaMotora);
             zrakoplov.setDosegLeta(dosegLeta);
-
-            // ispis podataka
+            
             Console.WriteLine(zrakoplov.ToString());
 
 
